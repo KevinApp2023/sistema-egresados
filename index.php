@@ -164,7 +164,7 @@
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active treeview">
                         <a href="">
-                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                            <i class="fa fa-dashboard"></i> <span>Registrar Datos</span>
                             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -252,31 +252,119 @@
                     <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
                     <li class="active">Dashboard</li>
                 </ol>
+
             </section>
 
 
+     
+<section style="margin: 40px;">
+<div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-aqua">
+            <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Bookmarks</span>
+              <span class="info-box-number">41,410</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">41,410</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-yellow">
+            <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Events</span>
+              <span class="info-box-number">41,410</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-red">
+            <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Comments</span>
+              <span class="info-box-number">41,410</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <!-- =========================================================== -->
+</section>
 
 
 
 
 
-
-
-            <section>
+            <section style="margin-top:-40px;">
                 <div id="contenedor">
-                    <div id="primeracoluma" style="margin:30px;">
+                    <div id="primeracoluma" style="margin-left:30px; margin-right: 30px; margin-bottom: 30px;">
 
 
 
                         <!-- general form elements -->
-                        <div class="box box-primary">
-                            <div class="box-header with-border">
+                    <div class="box-header with-border">
                                 <h3 class="box-title">Registrar Egresado</h3>
                             </div>
                             <!-- /.box-header -->
                             <!-- form start -->
+                           
                             <form action="subir.php" method="post" enctype="multipart/form-data">
-                                <div class=" box-body ">
+                        
+                            <div class=" box-body ">
                                     <div class="form-group ">
                                         <label>Identificación</label>
                                         <input type="text " class="form-control " placeholder="Identificación ... " name="identificacion" required>
@@ -297,7 +385,20 @@
                                         <input type="text " class="form-control " placeholder="Programa/Curso ... " name="programa" required>
                                     </div>
 
-                                    <div class="form-group ">
+                                    
+                                    
+                                    </div> 
+
+
+
+
+
+                    </div>
+                    <div id="segundacolumna " style="margin-top: 0px; margin-right: 30px;">
+                        
+                    
+
+                                    <div class="form-group " style="margin-top:50px;">
                                         <label>Fecha De Inicio</label>
 
                                         <div class="input-group date ">
@@ -321,7 +422,8 @@
                                         <br>
                                         <div class="form-group">
                                             <label for="exampleInputFile">DOCUMENTO PDF</label>
-                                            <input type="file" id="exampleInputFile" name="archivo" required>
+                                            <input type="file" id="exampleInputFile" name="archivo" required class="fa-solid fa-cloud-minus">
+                                            
 
                                             <p class="help-block ">Adjuntar archivos de certificacion del egresado.</p>
                                         </div>
@@ -330,175 +432,16 @@
 
 
 
-                                </div>
+                               
                                 <!-- /.box-body -->
 
-                                <div class="box-footer ">
+                                <div class="box- ">
                                     <button type="submit " class="btn btn-primary ">Registrar</button>
                                 </div>
                             </form>
-                        </div>
-                        <!-- /.box -->
-                   
 
-
-
-
-
-                    </div>
-                    <div id="segundacolumna " style="margin-top: 30px; margin-right: 30px;">
-                        <center>
-
-                            <div class="info-box bg-yellow">
-                                <span class="info-box-icon"><i class="ion ion-ios-pricetag-outline"></i></span>
-
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Inventory</span>
-                                    <span class="info-box-number">5,200</span>
-
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 50%"></div>
-                                    </div>
-                                    <span class="progress-description">
-                                      50% Increase in 30 Days
-                                    </span>
-                                </div>
-                                <!-- /.info-box-content -->
-                            </div>
-                            <!-- /.info-box -->
-                            <div class="info-box bg-green">
-                                <span class="info-box-icon"><i class="ion ion-ios-heart-outline"></i></span>
-
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Mentions</span>
-                                    <span class="info-box-number">92,050</span>
-
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 20%"></div>
-                                    </div>
-                                    <span class="progress-description">
-                                      20% Increase in 30 Days
-                                    </span>
-                                </div>
-                                <!-- /.info-box-content -->
-                            </div>
-                            <!-- /.info-box -->
-                            <div class="info-box bg-red">
-                                <span class="info-box-icon"><i class="ion ion-ios-cloud-download-outline"></i></span>
-
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Downloads</span>
-                                    <span class="info-box-number">114,381</span>
-
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 70%"></div>
-                                    </div>
-                                    <span class="progress-description">
-                                      70% Increase in 30 Days
-                                    </span>
-                                </div>
-                                <!-- /.info-box-content -->
-                            </div>
-                            <!-- /.info-box -->
-                            <div class="info-box bg-aqua">
-                                <span class="info-box-icon"><i class="ion-ios-chatbubble-outline"></i></span>
-
-                                <div class="info-box-content">
-                                    <span class="info-box-text">Direct Messages</span>
-                                    <span class="info-box-number">163,921</span>
-
-                                    <div class="progress">
-                                        <div class="progress-bar" style="width: 40%"></div>
-                                    </div>
-                                    <span class="progress-description">
-                                      40% Increase in 30 Days
-                                    </span>
-                                </div>
-                                <!-- /.info-box-content -->
-                            </div>
-                            <!-- /.info-box -->
-
-
-                            <!-- /.box -->
-
-                            <!-- PRODUCT LIST -->
-                            <div class="box box-primary">
-                                <div class="box-header with-border">
-                                    <h3 class="box-title">Recently Added Products</h3>
-
-                                    <div class="box-tools pull-right">
-                                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                                  </button>
-                                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                                    </div>
-                                </div>
-                                <!-- /.box-header -->
-                                <div class="box-body">
-                                    <ul class="products-list product-list-in-box">
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-50x50.gif" alt="Product Image">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Samsung TV
-                                        <span class="label label-warning pull-right">$1800</span></a>
-                                                <span class="product-description">
-                                            Samsung 32" 1080p 60Hz LED Smart HDTV.
-                                          </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-50x50.gif" alt="Product Image">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Bicycle
-                                        <span class="label label-info pull-right">$700</span></a>
-                                                <span class="product-description">
-                                            26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                                          </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-50x50.gif" alt="Product Image">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">Xbox One <span class="label label-danger pull-right">$350</span></a>
-                                                <span class="product-description">
-                                            Xbox One Console Bundle with Halo Master Chief Collection.
-                                          </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                        <li class="item">
-                                            <div class="product-img">
-                                                <img src="dist/img/default-50x50.gif" alt="Product Image">
-                                            </div>
-                                            <div class="product-info">
-                                                <a href="javascript:void(0)" class="product-title">PlayStation 4
-                                        <span class="label label-success pull-right">$399</span></a>
-                                                <span class="product-description">
-                                            PlayStation 4 500GB Console (PS4)
-                                          </span>
-                                            </div>
-                                        </li>
-                                        <!-- /.item -->
-                                    </ul>
-                                </div>
-                                <!-- /.box-body -->
-                                <div class="box-footer text-center">
-                                    <a href="javascript:void(0)" class="uppercase">View All Products</a>
-                                </div>
-                                <!-- /.box-footer -->
-                            </div>
-
-                        </center>
-
-                    </div>
-                </div>
+                            <div>
+                
                 <style>
                     #contenedor {
                         display: flex;
@@ -507,10 +450,10 @@
                     }
                     
                     #contenedor>div {
-                        width: 46%;
+                        width: 45%;
                     }
                 </style>
-
+</section>
 
 
 
@@ -556,6 +499,8 @@
             <script src="dist/js/pages/dashboard.js "></script>
             <!-- AdminLTE for demo purposes -->
             <script src="dist/js/demo.js "></script>
+<!-- kits d0a1a76a4f fontawesome -->
+<script src="https://kit.fontawesome.com/d0a1a76a4f.js" crossorigin="anonymous"></script>
 
 
 </body>
